@@ -1,0 +1,5 @@
+clear all
+clc
+syms t
+f=input('Ingresar funcion: ')
+inegral=int(f,t)
