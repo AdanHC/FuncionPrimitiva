@@ -1,0 +1,8 @@
+% Adan Hernandez Carlos
+% Funcion Primitiva
+% Grupo: 3202
+clear all
+clc
+syms x
+f=input('Ingresar funcion: ')
+inegral=int(f,x)
