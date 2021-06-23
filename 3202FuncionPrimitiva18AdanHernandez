@@ -5,4 +5,13 @@ clear all
 clc
 syms x
 f=input('Ingresar funcion: ')
-inegral=int(f,x)
+a=input('Ingresar intervalo inferior: ')
+b=input('Ingresar intervalo superior: ')
+integral=int(f,x,a,b)
+
+x=1:0.1:4;
+y=x;
+plot(x,y)
+title("f(x)=x");
+xlabel("X");
+ylabel("Y");
